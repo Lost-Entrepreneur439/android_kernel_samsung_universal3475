@@ -75,13 +75,6 @@ config SEC_DEBUG_TSP_LOG
 	help
 	  This option enables additional log buffer for tsp log.
 
-config SEC_DEBUG_LAST_KMSG
-	default y
-	bool "Enable /proc/last_kmsg support" if EMBEDDED
-	depends on SEC_DEBUG
-	help
-	  This option enables /proc/last_kmsg support.
-
 comment "Samsung TN Power Management Options"
 menuconfig SEC_PM
 	bool "Samsung TN Power Management"
